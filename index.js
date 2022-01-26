@@ -18,7 +18,7 @@ let logWhisper = stringToLog => {
 	console.log(stringToLog.toLowerCase());
 }
 
-// Returns
+// Returns message according to hello message format
 let sayHiToHeadphonedRoommate = helloMessageToRoommate => {
 	return helloMessageToRoommate.toLowerCase() === helloMessageToRoommate ? "I can't hear you!"
          : helloMessageToRoommate.toUpperCase() === helloMessageToRoommate ? "YES INDEED!"
